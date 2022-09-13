@@ -1,0 +1,262 @@
+body{
+    background-color: #F7ECDE;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.high_nav{
+    display: flex;
+    opacity: 0.6;
+}
+
+.logo img{
+    margin-left: 10px;
+    height: 95px;
+}
+
+.topnav{
+    display: flex;
+    margin-left: 860px;
+}
+
+.tag{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 11px;
+    color:#54BAB9;
+    
+}
+
+.container{
+    z-index: -4;
+    /* opacity: 0.6; */
+    display: relative;
+    background-image: url("mount.jpg");
+    height: 100vh;
+    width: 100vw;
+}
+
+.search_info{
+    border: 2px solid green;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    /* background: inherit; */
+    color: white;
+    /* border: none; */
+}
+.und{
+    background-color: #A5F1E9;
+}
+
+.qw{
+    text-align: center;
+}
+
+.know{
+    text-decoration: none;
+    color: black;
+}
+
+.link{
+    margin-top: 5px;
+}
+
+.new{
+    height: 35px;
+}
+
+.end{
+    text-align: center;
+    color: #7FBCD2;
+    font-size: 10px;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.search{
+    margin-top: 6px;
+     
+}
+
+.search :hover{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 1px #72FFFF;
+}
+
+.search_info ::placeholder{
+    color: black;
+}
+
+.nop{
+    color: #9ED2C6;
+    margin-left: 515px;
+    display: inline;
+    text-align: center;
+}
+
+.head{
+    margin: 100px 0px 50px 0px;
+}
+
+h2{
+    text-align: center;
+}
+
+.old{
+    font-size: 20px;
+    margin-left: 120px;
+    /* width: 100px; */
+    text-align: center;
+}
+
+.fmk{
+    background-color: #EAE3D2;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 3px #0F3D3E;
+    height: 500px;
+    width: 900px;
+}
+
+.un{
+    display: flex;
+    margin-left: 700px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.content{
+    margin-left: 440px;
+    margin-bottom: 25px;
+}
+
+.header{
+    text-align: center;
+    margin-top: 200px;
+    padding: 0px 300px 0px 300px;
+    color: white;
+}
+
+.what{
+    padding: 25px 200px 25px 200px;
+}
+
+.join{
+    background-color: #A5C9CA;
+    padding:25px 26px 25px 26px;
+}
+
+.dropdown {
+    /* background: #54BAB9; */
+    color: #54BAB9;
+    cursor: pointer;
+    height: 50px;
+    line-height: 42px;
+    /* position: relative; */
+    width: 135px;
+    margin-right: -21px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+    transform: perspective(1000px);
+     /* -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2); */
+  }
+  
+  .dropdown-menu {
+    background-color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    text-align: center;
+    top: 0;
+    visibility: hidden;
+    z-index: -99999;
+  }
+  
+  .dropdown-menu li:first-child {
+    cursor: default;
+  }
+  
+  .dropdown-menu a {
+    color: #000;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    -webkit-transition: all 1s;
+    transition: all 0.5s;
+  }
+  
+  .dropdown-menu a:hover {
+    background: #9ED2C6;
+    color: #fff;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    background: #54BAB9;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    width: 100%;
+    -webkit-transition: all .5s, background, 2s .5s linear;
+    transition: all .5s, background 0.5s .5s linear;
+  }
+
+  .search_info::placeholder{
+    color: black;
+  }
+.qrt{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.profile{
+    margin-left: 173px;
+    /* display: flex; */
+    height: 150px;
+
+}
+
+.poto{
+    margin-left: 20px;
+    margin-top: -82px;
+    display: flex;
+}
+
+.niti{
+    /* text-align: center; */
+    color: #54BAB9;
+    margin-left: 65px;
+}
+
+.chess{
+    margin-top: -92px;
+}
+
+.ok{
+    color: #54BAB9;
+}
+
+.tag :hover{
+    font-size: 10px;
+}
+
+
+
+
+
